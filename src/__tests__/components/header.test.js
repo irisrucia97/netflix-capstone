@@ -41,7 +41,7 @@ describe('<Header />', () => {
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo src="/images/logo.svg" alt="Netflix" />
+            <Header.Logo src="./images/logo.svg" alt="Netflix" />
             <Header.TextLink active={false} onClick={() => {}}>
               Series
             </Header.TextLink>
@@ -52,10 +52,10 @@ describe('<Header />', () => {
           <Header.Group>
             <Header.Search searchTerm="Joker" setSearchTerm={() => {}} />
             <Header.Profile>
-              <Header.Picture src="/images/karl.png" />
+              <Header.Picture src="./images/karl.png" />
               <Header.Dropdown>
                 <Header.Group>
-                  <Header.Picture src="/images/karl.png" />
+                  <Header.Picture src="./images/karl.png" />
                   <Header.TextLink>Karl Hadwen</Header.TextLink>
                 </Header.Group>
                 <Header.Group>

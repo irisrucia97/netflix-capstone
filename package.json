@@ -1,10 +1,12 @@
 {
+  "homepage": "https://irisrucia97.github.io/netflix-capstone/",
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "firebase": "^7.19.1",
     "fuse.js": "^6.4.1",
+    "gh-pages": "^3.2.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -16,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
